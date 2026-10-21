@@ -189,7 +189,7 @@ module.exports = function (app, router) {
                 message: 'OK',
                 data: user
             });
-            // Copilot auto-filled repeated error lines (60-65, 32-37)
+            // Copilot auto-filled repeated error lines (193-198, 225-30)
         } catch (error) {
             console.error('Error retrieving user:', error);
             res.status(error instanceof SyntaxError ? 400 : 500).json({
